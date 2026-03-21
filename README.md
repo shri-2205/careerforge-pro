@@ -1,9 +1,10 @@
+
 # ATS-Proof Resume Generator & Job Matcher
 
-# 🚀 CareerForge Pro 
+# 🚀 ResumeAI Pro 
 
 ## 📌 About
-CareerForge Pro is a full-stack AI-powered resume builder that helps job seekers optimize their resumes for ATS (Applicant Tracking Systems). Upload your resume, paste a job description, and let AI rewrite it for maximum compatibility.
+ResumeAI Pro is a full-stack AI-powered resume builder that helps job seekers optimize their resumes for ATS (Applicant Tracking Systems). Upload your resume, paste a job description, and let AI rewrite it for maximum compatibility.
 
 ## ✨ Features
 - 🤖 **AI Resume Optimization** — Groq AI (Llama 3.3 70B) rewrites resume bullets
@@ -39,17 +40,20 @@ CareerForge Pro is a full-stack AI-powered resume builder that helps job seekers
 **Backend:**
 ```bash
 cd backend
-cp .env.example .env
-# Add your keys to .env
 npm install
 node server.js
+
 ```
 
 **Frontend:**
+
+### Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
+
 ```
 
 ### Environment Variables
@@ -100,4 +104,9 @@ Frontend (React) → Backend (Express API) → MongoDB  (Atlas)
 
 ---
 ⭐ Turn your resume into opportunities — star CareerForge Pro to support!
+
+
+
+
+
 
