@@ -61,6 +61,12 @@ FRONTEND_URL=http://localhost:3000
 NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
 
+## 🏗️ Architecture
+
+Frontend (React) → Backend (Express API) → MongoDB  (Atlas)
+                          ↓  
+                     Groq AI API
+                     
 ## 📱 Pages
 | Page | Description |
 |------|-------------|
@@ -85,8 +91,13 @@ NODE_TLS_REJECT_UNAUTHORIZED=0
 | POST | `/api/ai/cover-letter` | Generate cover letter |
 | POST | `/api/ai/interview-questions` | Generate questions |
 
+## 👨‍💻 Developer
+**Shri Priyaa**
 
+- 💼 Aspiring Full Stack Developer (MERN)
+- 🔗 LinkedIn: https://linkedin.com/in/shri-priyaa-s-137277320
+- 💻 GitHub: https://github.com/shri-2205
 
 ---
-⭐ Star this repo if you found it helpful!
+⭐ Turn your resume into opportunities — star CareerForge Pro to support!
 
