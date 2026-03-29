@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# ResumeAI Pro — Vite + MERN Stack
->>>>>>> 80b84ae (removed secrets)
-
 # ATS-Proof Resume Generator & Job Matcher
 
 # 🚀 ResumeAI Pro 
@@ -116,14 +110,4 @@ Frontend (React) → Backend (Express API) → MongoDB  (Atlas)
 
 
 
-=======
-## Tech Stack
-- Frontend: React 18 + Vite + Bootstrap 5
-- Backend: Node.js + Express
-- Database: MongoDB + Mongoose
-- AI: Groq API (Llama 3.3 70B)
-- Auth: JWT
-=======
-# Careerforge-Pro
->>>>>>> 2f9b9ec6228eda2dee7d313ba303d376da9e35df
->>>>>>> 80b84ae (removed secrets)
+
