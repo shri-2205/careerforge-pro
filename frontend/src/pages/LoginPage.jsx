@@ -36,7 +36,7 @@ export default function LoginPage() {
             <i className="bi bi-lightning-fill" style={{ color: '#fff', fontSize: 24 }} />
           </div>
           <h3 style={{ fontFamily: 'Syne,sans-serif', fontWeight: 800, margin: '0 0 6px', letterSpacing: '-0.5px' }}>Welcome back</h3>
-          <p style={{ color: 'var(--text-muted)', fontSize: 14, margin: 0 }}>Sign in to <span className="gradient-text" style={{ fontWeight: 700 }}>CareerForge Pro</span></p>
+          <p style={{ color: 'var(--text-muted)', fontSize: 14, margin: 0 }}>Sign in to <span className="gradient-text" style={{ fontWeight: 700 }}>ResumeAI Pro</span></p>
         </div>
 
         {/* Card */}

@@ -365,3 +365,43 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Cabinet Grotesk', 'Syne', sans-serif; }
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+
+/* ✅ RESPONSIVE FIX - CLEAN VERSION */
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+    width: 100%;
+  }
+
+  /* Landing page spacing */
+  section {
+    padding: 40px 20px !important;
+  }
+
+  h1 {
+    font-size: 32px !important;
+    line-height: 1.2;
+  }
+
+  /* ✅ FIX GRID PROPERLY */
+  .features-grid,
+  .stats-grid,
+  .cards-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  /* Card full width */
+  .stat-card {
+    width: 100%;
+  }
+
+}

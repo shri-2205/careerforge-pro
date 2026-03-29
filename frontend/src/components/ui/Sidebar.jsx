@@ -41,7 +41,7 @@ export default function Sidebar() {
         <div style={{ width: 36, height: 36, background: 'linear-gradient(135deg, var(--accent), var(--accent-2))', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, boxShadow: '0 4px 16px var(--accent-glow)' }}>
           <i className="bi bi-lightning-fill" style={{ color: '#fff', fontSize: 16 }} />
         </div>
-        <span style={{ fontFamily: 'Syne,sans-serif', fontWeight: 800, fontSize: 17, letterSpacing: '-0.3px' }}>CareerForge Pro</span>
+        <span style={{ fontFamily: 'Syne,sans-serif', fontWeight: 800, fontSize: 17, letterSpacing: '-0.3px' }}>ResumeAI Pro</span>
         <span style={{ marginLeft: 'auto', background: 'linear-gradient(135deg, var(--accent), var(--accent-2))', color: '#fff', fontSize: 10, fontWeight: 700, padding: '2px 8px', borderRadius: 20 }}>PRO</span>
       </div>
 

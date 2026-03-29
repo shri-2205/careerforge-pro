@@ -12,7 +12,7 @@ const TEMPLATES = [
     preview: (
       <div style={{ padding: 16, fontFamily: "'Inter', sans-serif", fontSize: 9, color: '#111', lineHeight: 1.5, background: '#fff', minHeight: 180 }}>
         <div style={{ borderLeft: '3px solid #6366f1', paddingLeft: 8, marginBottom: 8 }}>
-          <div style={{ fontSize: 13, fontWeight: 800, color: '#111' }}>John Doe</div>
+          <div style={{ fontSize: 13, fontWeight: 800, color: '#111' }}>John</div>
           <div style={{ color: '#6366f1', fontSize: 9, fontWeight: 600 }}>Software Engineer</div>
           <div style={{ color: '#888', fontSize: 8 }}>john@email.com • +91 00000</div>
         </div>
@@ -41,7 +41,7 @@ const TEMPLATES = [
     preview: (
       <div style={{ padding: 16, fontFamily: "'Georgia', serif", fontSize: 9, color: '#111', lineHeight: 1.5, background: '#fff', minHeight: 180 }}>
         <div style={{ textAlign: 'center', borderBottom: '2px solid #1e293b', paddingBottom: 8, marginBottom: 8 }}>
-          <div style={{ fontSize: 14, fontWeight: 800, letterSpacing: 1 }}>JOHN DOE</div>
+          <div style={{ fontSize: 14, fontWeight: 800, letterSpacing: 1 }}>JOHN </div>
           <div style={{ fontSize: 8, color: '#555' }}>john@email.com • +91 00000 • Chennai</div>
         </div>
         <div style={{ fontSize: 8, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1, borderBottom: '1px solid #1e293b', paddingBottom: 2, marginBottom: 5 }}>EXPERIENCE</div>
@@ -49,7 +49,7 @@ const TEMPLATES = [
           <div key={t} style={{ fontSize: 8, marginBottom: 3 }}>• {t}</div>
         ))}
         <div style={{ fontSize: 8, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1, borderBottom: '1px solid #1e293b', paddingBottom: 2, marginTop: 6, marginBottom: 5 }}>EDUCATION</div>
-        <div style={{ fontSize: 8 }}>• B.E. Computer Science — Anna University (2020)</div>
+        <div style={{ fontSize: 8 }}>• B.E. Computer Science — Anna University (2023)</div>
       </div>
     )
   },
@@ -62,15 +62,15 @@ const TEMPLATES = [
     preview: (
       <div style={{ padding: 16, fontFamily: "'DM Sans', sans-serif", fontSize: 9, color: '#111', lineHeight: 1.8, background: '#fff', minHeight: 180 }}>
         <div style={{ marginBottom: 10 }}>
-          <div style={{ fontSize: 15, fontWeight: 300, letterSpacing: 2 }}>John Doe</div>
+          <div style={{ fontSize: 15, fontWeight: 300, letterSpacing: 2 }}>John</div>
           <div style={{ fontSize: 8, color: '#999', letterSpacing: 1 }}>SOFTWARE ENGINEER</div>
         </div>
         <div style={{ width: 24, height: 1, background: '#0d0d0d', marginBottom: 8 }} />
-        <div style={{ fontSize: 8, color: '#555', marginBottom: 8 }}>Aspiring full-stack developer with 5 years of experience.</div>
+        <div style={{ fontSize: 8, color: '#555', marginBottom: 8 }}>Aspiring full-stack developer with 2 years of experience.</div>
         {['Experience', 'Education', 'Skills'].map(s => (
           <div key={s} style={{ marginBottom: 5 }}>
             <div style={{ fontSize: 7, fontWeight: 700, letterSpacing: 1.5, textTransform: 'uppercase', color: '#999', marginBottom: 2 }}>{s}</div>
-            <div style={{ fontSize: 8, color: '#444' }}>Senior Developer • TechCorp • 2022</div>
+            <div style={{ fontSize: 8, color: '#444' }}>Senior Developer • TechCorp • 2025</div>
           </div>
         ))}
       </div>
@@ -89,7 +89,7 @@ const TEMPLATES = [
           <div style={{ fontSize: 10, fontWeight: 800, marginBottom: 2 }}>John Doe</div>
           <div style={{ fontSize: 7, color: '#94a3b8', marginBottom: 8 }}>Software Engineer</div>
           <div style={{ fontSize: 7, color: '#cbd5e1', marginBottom: 2 }}>📧 john@email.com</div>
-          <div style={{ fontSize: 7, color: '#cbd5e1', marginBottom: 8 }}>📍 Chennai, TN</div>
+          <div style={{ fontSize: 7, color: '#cbd5e1', marginBottom: 8 }}>📍 Trichy, TN</div>
           <div style={{ fontSize: 7, fontWeight: 700, color: '#e8ff4d', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 4 }}>Skills</div>
           {['React', 'Node.js', 'AWS'].map(s => (
             <div key={s} style={{ fontSize: 7, color: '#cbd5e1', marginBottom: 2 }}>▸ {s}</div>

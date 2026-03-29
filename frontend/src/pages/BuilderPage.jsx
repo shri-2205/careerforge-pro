@@ -21,7 +21,7 @@ Responsibilities:
 - Work with AWS (EC2, S3, Lambda)
 
 Requirements:
-- 5+ years full-stack development experience
+- 2+ years full-stack development experience
 - React.js, Node.js, Express.js, MongoDB
 - TypeScript, GraphQL, Docker, Kubernetes
 - AWS/GCP cloud knowledge
@@ -254,7 +254,7 @@ export default function BuilderPage() {
               ) : (
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 12 }}>
                   <textarea className="input-modern" rows={11}
-                    placeholder={"Paste your full resume here...\n\nJohn Doe\njohn@email.com | +91 00000\n\nSUMMARY\nSoftware engineer with 3 years...\n\nEXPERIENCE\nSoftware Engineer at Company (2022-Present)\n• Built React applications..."}
+                    placeholder={"Paste your full resume here...\n\nJohn Doe\njohn@email.com | +91 00000\n\nSUMMARY\nSoftware engineer with 2 years...\n\nEXPERIENCE\nSoftware Engineer at Company (2022-Present)\n• Built React applications..."}
                     value={pastedText} onChange={e => setPastedText(e.target.value)}
                     style={{ fontFamily: 'monospace', fontSize: 12, resize: 'none', flex: 1 }} />
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

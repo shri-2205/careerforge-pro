@@ -139,7 +139,7 @@ export default function LandingPage() {
               Everything you need to<br /><span className="gradient-text">land the job</span>
             </h2>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 20 }}>
             {[
               { icon: 'bi-file-earmark-arrow-up-fill', title: 'Smart Resume Parsing', desc: 'Upload PDF or paste text. Extract full work history instantly.', color: 'var(--accent)' },
               { icon: 'bi-search-heart-fill', title: 'JD Keyword Extraction', desc: 'AI identifies every required skill and tool from the job description.', color: '#fc5c7d' },
@@ -183,7 +183,7 @@ export default function LandingPage() {
           <div style={{ width: 24, height: 24, background: 'linear-gradient(135deg, var(--accent), var(--accent-2))', borderRadius: 7, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <i className="bi bi-lightning-fill" style={{ color: '#fff', fontSize: 11 }} />
           </div>
-          <span style={{ fontFamily: "'Cabinet Grotesk', sans-serif", fontWeight: 700, fontSize: 14 }}>CareerForge Pro</span>
+          <span style={{ fontFamily: "'Cabinet Grotesk', sans-serif", fontWeight: 700, fontSize: 14 }}>ResumeAI Pro</span>
         </div>
         <p style={{ fontSize: 12, color: 'var(--text-muted)', margin: 0 }}>Built with React, Node.js, MongoDB & Groq AI</p>
       </footer>

@@ -36,7 +36,7 @@ export default function RegisterPage() {
             <i className="bi bi-lightning-fill" style={{ color: '#fff', fontSize: 24 }} />
           </div>
           <h3 style={{ fontFamily: 'Syne,sans-serif', fontWeight: 800, margin: '0 0 6px', letterSpacing: '-0.5px' }}>Create account</h3>
-          <p style={{ color: 'var(--text-muted)', fontSize: 14, margin: 0 }}>Start optimizing with <span className="gradient-text" style={{ fontWeight: 700 }}>CareerForge Pro</span></p>
+          <p style={{ color: 'var(--text-muted)', fontSize: 14, margin: 0 }}>Start optimizing with <span className="gradient-text" style={{ fontWeight: 700 }}>ResumeAI Pro</span></p>
         </div>
 
         <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: 24, padding: '32px' }}>
